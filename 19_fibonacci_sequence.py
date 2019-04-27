@@ -1,10 +1,10 @@
 #fibonacci_sequence
 a=0
 b=1
-temp=0
+c=0
 n=int(input("enter the num :"))
 while(a<n):
-    temp=a+b
+    c=a+b
     a=b
-    b=temp
-print("temp",temp)
+    b=c
+print(c)
